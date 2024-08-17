@@ -67,8 +67,7 @@ const Header = () => {
                         MiniApp
                     </Link>
                     <Link
-                        href="https://nxtshowapp.vercel.app/webform"
-                        target="_blank"
+                        href="/contact/"
                         className="text-muted-foreground transition-colors hover:text-foreground"
                     >
                         Contact
@@ -125,8 +124,7 @@ const Header = () => {
                                 MiniApp
                             </Link>
                             <Link
-                                href="https://nxtshowapp.vercel.app/webform"
-                                target="_blank"
+                                href="/contact/"
                                 className="text-muted-foreground transition-colors hover:text-foreground"
                             >
                                 Contact

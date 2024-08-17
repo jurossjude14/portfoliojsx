@@ -329,3 +329,21 @@ span.title-box a {
 .cs-heading-popup {
   font-size: 17px;
 }
+
+.custom-filter-img.contact {
+  border: 0;
+}
+
+.form-contact-sec label {
+  display: none;
+}
+
+.ty-box {
+  margin-top: 20px;
+  background: #188e4136;
+  border: 1px solid #188e41;
+}
+
+.ty-box svg {
+  margin-left: -5px;
+}
