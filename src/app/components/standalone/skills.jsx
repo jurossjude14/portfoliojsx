@@ -1,16 +1,15 @@
 
-import { Linkedin, Github, MonitorSmartphone, Blocks } from "lucide-react"
+import { MonitorSmartphone, Blocks } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import Drawerinfo from "../drawerinfo"
 
 import {
     Card,
     CardContent,
-    CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
 
-import { Separator } from "@/components/ui/separator"
 import { Progress } from "@/components/ui/progress"
 
 
@@ -39,6 +38,7 @@ const Skills = () => {
                             <p className="text-xs text-muted-foreground">
                                 I prioritize a "Responsive First" approach to web development. This methodology ensures that websites deliver an optimal user experience across all devices, starting with mobile and scaling up to larger screens. 
                             </p>
+                            <Drawerinfo />
                         </span>
                     </CardContent>
                 </span>

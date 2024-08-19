@@ -1,5 +1,5 @@
 
-import { Linkedin, Github, Mail } from "lucide-react"
+import { Linkedin, Send, Github } from "lucide-react"
 import Link from "next/link"
 
 import {
@@ -40,7 +40,7 @@ const About = () => {
                         </CardContent>
                     </span>
                 </span>
-                <CardFooter className="flex flex-row border-t p-4">
+                <CardFooter className="flex flex-row border-t p-4 grid-feat-bio">
                     <div className="flex w-full items-center gap-2">
                         <div className="grid flex-1 auto-rows-min gap-0.5">
                             <div className="text-xs text-muted-foreground">Web Experience</div>
@@ -63,11 +63,11 @@ const About = () => {
                         </div>
                         <Separator orientation="vertical" className="mx-2 h-10 w-px" />
                         <div className="grid flex-1 auto-rows-min gap-0.5">
-                            <div className="text-xs text-muted-foreground">Contact</div>
+                            <div className="text-xs text-muted-foreground"></div>
                             <div className="flex items-baseline gap-1 text-2xl font-bold tabular-nums leading-none">
-                                <Button asChild className="sendme"> 
+                                <Button asChild className="sendme-ds" variant="secondary"> 
                                     <Link href="mailto:jurosswebtwopointzero@gmail.com">
-                                        <Mail className="mr-2 h-4 w-4" /> Send Mail
+                                        <Send className="mr-2 h-4 w-4" /> Send Mail
                                     </Link>
                                 </Button>
                             </div>

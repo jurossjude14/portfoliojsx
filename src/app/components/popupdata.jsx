@@ -15,6 +15,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
 import { ExternalLinkIcon } from "lucide-react"
 
+import { ScrollArea } from "@/components/ui/scroll-area"
+
 import QRCode from "qrcode"
 import { useState } from "react"
 
@@ -45,6 +47,7 @@ const Popupdata = ({ data }) => {
           <Button variant="outline">More Info</Button>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[425px] md:max-w-[1000px] lg:max-w-[1300px] popupdata-view">
+
           <DialogHeader>
             <DialogTitle>
               <span className="title-box">
@@ -52,6 +55,7 @@ const Popupdata = ({ data }) => {
               </span>
               <span className="data-type">{data.work}</span>
             </DialogTitle>
+            <ScrollArea className="h-[480px]">
             <div className="grid gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-2">
               <AspectRatio ratio={19 / 13} className="bg-muted-dis">
                 <Image
@@ -106,9 +110,9 @@ const Popupdata = ({ data }) => {
                 </Tabs>
               </div>
             </div>
+            </ScrollArea>
           </DialogHeader>
-          <DialogFooter>
-          </DialogFooter>
+
         </DialogContent>
       </Dialog>
 
