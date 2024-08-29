@@ -2,6 +2,7 @@
 import { MonitorSmartphone, Blocks } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Drawerinfo from "../drawerinfo"
+import Link from "next/link"
 
 import {
     Card,
@@ -27,7 +28,7 @@ const Skills = () => {
                         <span className="icon-content">
                             <div className="text-2xl font-bold heading">Web Development</div>
                             <p className="text-xs text-muted-foreground">
-                                 My expertise encompasses theme development, customization, and optimization, ensuring that each website meets the unique needs of clients and delivers an exceptional user experience.
+                                My expertise encompasses theme development, customization, and optimization, ensuring that each website meets the unique needs of clients and delivers an exceptional user experience.
                             </p>
                         </span>
                     </CardContent>
@@ -36,9 +37,14 @@ const Skills = () => {
                         <span className="icon-content">
                             <div className="text-2xl font-bold heading">Responsive First</div>
                             <p className="text-xs text-muted-foreground">
-                                I prioritize a "Responsive First" approach to web development. This methodology ensures that websites deliver an optimal user experience across all devices, starting with mobile and scaling up to larger screens. 
+                                I prioritize a "Responsive First" approach to web development. This methodology ensures that websites deliver an optimal user experience across all devices, starting with mobile and scaling up to larger screens.
                             </p>
                             <Drawerinfo />
+                            <Button asChild className="linktoapp" variant="outline">
+                                <Link href="https://nxtshowapp.vercel.app/" target="_blank">
+                                    Mini Apps
+                                </Link>
+                            </Button>
                         </span>
                     </CardContent>
                 </span>
@@ -53,7 +59,7 @@ const Skills = () => {
                             <div className="text-2xl font-bold heading">My Expertise</div>
                             <Progress value={95} className="w-[100%] h-[12px]" />
                             <p className="text-xs text-muted-foreground">
-                                 Wordpress - 95%
+                                Wordpress - 95%
                             </p>
                             <Progress value={80} className="w-[100%] h-[12px]" />
                             <p className="text-xs text-muted-foreground">
@@ -61,19 +67,19 @@ const Skills = () => {
                             </p>
                             <Progress value={85} className="w-[100%] h-[12px]" />
                             <p className="text-xs text-muted-foreground">
-                            Javascript - 85%
+                                Javascript - 85%
                             </p>
                             <Progress value={80} className="w-[100%] h-[12px]" />
                             <p className="text-xs text-muted-foreground">
-                            Reactjs | Nextjs - 80%
+                                Reactjs | Nextjs - 80%
                             </p>
                             <Progress value={90} className="w-[100%] h-[12px]" />
                             <p className="text-xs text-muted-foreground">
-                            CSS | CSS3 - 90%
+                                CSS | CSS3 - 90%
                             </p>
                             <Progress value={90} className="w-[100%] h-[12px]" />
                             <p className="text-xs text-muted-foreground">
-                            HTML| HTML5 - 90%
+                                HTML| HTML5 - 90%
                             </p>
                         </span>
                     </CardContent>

@@ -412,3 +412,40 @@ span.task-list span {
   margin-right: 5px;
   margin-top: -1px;
 }
+
+.child-news button {
+  margin-top: 15px;
+}
+
+.child-news p {
+  margin-top:5px;
+}
+
+span.date-published {
+  margin-top: 5px;
+  display: block;
+  font-size: 12px;
+  color: #adadad;
+}
+
+.child-news h3 {
+  font-size: 20px;
+}
+
+.box-icon {
+  display: flex;
+  justify-content: center;
+  background: #00081f;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 15px;
+  border: 1px solid #0036d945;
+}
+
+.box-icon svg {
+  color: #0036d8;
+}
+
+.linktoapp {
+  margin-left: 10px;
+}

@@ -60,11 +60,10 @@ const Header = () => {
                         Github
                     </Link>
                     <Link
-                        href="https://nxtshowapp.vercel.app/"
-                        target="_blank"
+                        href="/blog/"
                         className="text-muted-foreground transition-colors hover:text-foreground"
                     >
-                        MiniApp
+                        Blog
                     </Link>
                     <Link
                         href="/contact/"
